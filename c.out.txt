@@ -1,0 +1,525 @@
+1 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Company Information
+
+
+Address:
+388 GREENWICH STREET
+City:
+NEW YORK
+State:
+NY
+Zip Code:
+10013
+Telephone:
+212-559-1000
+
+Description of Business
+
+
+Primary SIC Code: 6021
+(As filed with the SEC)
+Citigroup is now a global diversified financial services holding company whose businesses provide consumers, corporations, governments and institutions with a broad range of financial products and services. Citi has approximately 200 million customer accounts and does business in more than 140 countries. Citigroup currently operates, for management reporting purposes, via two primary business segments: Citicorp, consisting of our Regional Consumer Banking businesses and Institutional Clients Group; and Citi Holdings, consisting of our Brokerage and Asset Management and Local Consumer Lending businesses, and a Special Asset Pool. There is also a third segment, Corporate/Other. For a further description of the business segments and the products and services they provide, see "Citigroup Segments" below, "Management's Discussion and Analysis of Financial Condition and Results of Operations" and Note 4 to the Consolidated Financial Statements.  ... More ...
+
+Per Share Overview
+Date
+12-mos Rolling EPS
+Dividend
+P/E Ratio
+09/2017
+5.19
+0.320
+14.02
+06/2017
+5.02
+0.160
+13.32
+12/2016
+4.74
+0.160
+12.54
+09/2016
+4.64
+0.160
+10.18
+06/2016
+4.76
+0.160
+8.91
+03/2016
+5.03
+0.050
+8.30
+12/2015
+5.42
+0.050
+9.55
+09/2015
+4.44
+0.050
+11.17
+
+Key Financial Ratios and Statistics
+
+
+FYE: 12/31
+Profitability
+2016
+Leverage
+2016
+Net Inc/Comm Equity
+0.16
+Total Liab/Total Assets
+0.87
+Net Inc/Total Assets
+0.01
+Total Liab/Inv Cap
+0.97
+Net Inc/Inv Cap
+0.01
+Total Liab/Comm Equity
+17.07
+Pretax Inc/Net Sales
+0.34
+Interest Coverage Ratio
+2.72
+Net Inc/Net Sales
+0.24
+Curr Debt/Equity
+0.77
+Cash Flow/Net Sales
+0.86
+LTD/Equity
+1.53
+SG&A/NetSales
+0.67
+Total Debt/Equity
+2.30
+Asset Utilization
+Liquidity
+Net Receivables Turnover
+2.21
+Quick Ratio
+NA
+Inventory Turnover
+NA
+Current Ratio
+NA
+Inventory Day Sales
+NA
+Net Rec/Curr Assets
+NA
+Net Sales/Work Cap
+NA
+Inv/Curr Assets
+NA
+Net Sales/PP&E
+NA
+
+Income Statement (Millions)
+9/30/2017
+6/30/2017
+3/31/2017
+12/31/2016
+Total Revenues(Net Sales)
+15,976.00
+15,983.00
+16,278.00
+14,950.00
+Cost of Goods Sold
+NA
+NA
+NA
+NA
+Selling & Admin Exps
+10,199.00
+10,529.00
+10,507.00
+10,152.00
+Operating Income
+5,790.00
+5,457.00
+5,789.00
+4,825.00
+Interest Exp
+4,379.00
+4,036.00
+3,566.00
+3,277.00
+Pretax Income
+6,003.00
+5,678.00
+5,981.00
+5,100.00
+Other Income
+213.00
+221.00
+192.00
+275.00
+Net Income Bef Extraordinary ...
+NA
+NA
+NA
+NA
+Net Income
+4,133.00
+3,872.00
+4,090.00
+3,573.00
+
+Balance Sheet (Millions)
+Assets
+9/30/2017
+6/30/2017
+3/31/2017
+12/31/2016
+Cash & Short Term Investments
+438,717.00
+420,147.00
+422,974.00
+397,307.00
+Receivables - Total
+38,076.00
+40,487.00
+36,888.00
+28,887.00
+Inventories - Total
+NA
+NA
+NA
+NA
+Total Current Assets
+NA
+NA
+NA
+NA
+Net Property, Plant & Equipment
+NA
+NA
+NA
+NA
+Total Assets
+1,889,133.00
+1,864,063.00
+1,821,635.00
+1,792,077.00
+Liabilities
+Accounts Payable
+63,205.00
+62,947.00
+59,655.00
+57,152.00
+Debt in Current Liabilities
+199,431.00
+191,299.00
+174,357.00
+172,522.00
+Total Current Liabilities
+NA
+NA
+NA
+NA
+Long-Term Debt
+371,493.00
+361,924.00
+352,600.00
+345,223.00
+Total Liabilities
+1,661,499.00
+1,634,044.00
+1,593,503.00
+1,566,957.00
+Stockholder's Equity
+Minority Interest
+988.00
+1,088.00
+1,021.00
+1,023.00
+Preferred Stock
+19,253.00
+19,253.00
+19,253.00
+19,253.00
+Common Stock
+31.00
+31.00
+31.00
+31.00
+Retained Earnings
+155,174.00
+152,178.00
+149,731.00
+146,477.00
+Treasury Stock
+-24,829.00
+-19,342.00
+-17,579.00
+-16,302.00
+Total Stockholders' Equity
+227,634.00
+230,019.00
+228,132.00
+225,120.00
+Total Liabilities and Stockholders' Equity
+1,889,133.00
+1,864,063.00
+1,821,635.00
+1,792,077.00
+
+Cash Flow Summary (Millions)
+Categories
+9/30/2017
+6/30/2017
+3/31/2017
+12/31/2016
+Net Cash Provided by Operating Activities
+18,206.00
+-18,505.00
+-3,006.00
+25,598.00
+Net Cash Provided by Investing Activities
+-29,919.00
+-22,508.00
+-17,243.00
+-7,972.00
+Net Cash Provided by Financing Activities
+13,001.00
+39,798.00
+19,138.00
+-17,653.00
+
+Annual Summary Data (Millions)
+Year
+Sales
+Net Income
+EPS
+12/2012
+59,581.00
+7,541.00
+2.49
+12/2013
+67,997.00
+13,659.00
+4.26
+12/2014
+69,606.00
+7,310.00
+2.20
+12/2015
+68,024.00
+17,242.00
+5.42
+12/2016
+62,565.00
+14,912.00
+4.74
+Growth Rates
+1.23
+18.58
+17.46
+
+Stock Ownership
+Type
+Date(Q,M)
+No. Owners
+Shares Held (000s)
+% Own
+Institutional
+12/31/17
+1666
+2,065,096
+80.35
+
+
+
+
+
+Report Date : 2/19/2018
+© 2018EDGAR®Online, a division of Donnelley Financial Solutions. EDGAR® is a federally registered trademark of the U.S. Securities and Exchange Commission. EDGAR Online is not affiliated with or approved by the U.S. Securities and Exchange Commission. Company Information   Address: 388 GREENWICH STREET City: NEW YORK State: NY Zip Code: 10013 Telephone: 212-559-1000 Description of Business Primary SIC Code: 6021 (As filed with the SEC)   Citigroup is now a global diversified financial services holding company whose businesses provide consumers, corporations, governments and institutions with a broad range of financial products and services. Citi has approximately 200 million customer accounts and does business in more than 140 countries. Citigroup currently operates, for management reporting purposes, via two primary business segments: Citicorp, consisting of our Regional Consumer Banking businesses and Institutional Clients Group; and Citi Holdings, consisting of our Brokerage and Asset Management and Local Consumer Lending businesses, and a Special Asset Pool. There is also a third segment, Corporate/Other. For a further description of the business segments and the products and services they provide, see "Citigroup Segments" below, "Management's Discussion and Analysis of Financial Condition and Results of Operations" and Note 4 to the Consolidated Financial Statements.  ... More ... Per Share Overview  Date 12-mos Rolling EPS Dividend P/E Ratio 09/2017 5.19 0.320 14.02 06/2017 5.02 0.160 13.32 12/2016 4.74 0.160 12.54 09/2016 4.64 0.160 10.18 06/2016 4.76 0.160 8.91 03/2016 5.03 0.050 8.30 12/2015 5.42 0.050 9.55 09/2015 4.44 0.050 11.17 Key Financial Ratios and Statistics FYE: 12/31  Profitability 2016 Leverage 2016 Net Inc/Comm Equity 0.16 Total Liab/Total Assets 0.87 Net Inc/Total Assets 0.01 Total Liab/Inv Cap 0.97 Net Inc/Inv Cap 0.01 Total Liab/Comm Equity 17.07 Pretax Inc/Net Sales 0.34 Interest Coverage Ratio 2.72 Net Inc/Net Sales 0.24 Curr Debt/Equity 0.77 Cash Flow/Net Sales 0.86 LTD/Equity 1.53 SG&A/NetSales 0.67 Total Debt/Equity 2.30 Asset Utilization  Liquidity  Net Receivables Turnover 2.21 Quick Ratio NA Inventory Turnover NA Current Ratio NA Inventory Day Sales NA Net Rec/Curr Assets NA Net Sales/Work Cap NA Inv/Curr Assets NA Net Sales/PP&E NA   Income Statement (Millions)   9/30/2017 6/30/2017 3/31/2017 12/31/2016 Total Revenues(Net Sales) 15,976.00 15,983.00 16,278.00 14,950.00 Cost of Goods Sold NA NA NA NA Selling & Admin Exps 10,199.00 10,529.00 10,507.00 10,152.00 Operating Income 5,790.00 5,457.00 5,789.00 4,825.00 Interest Exp 4,379.00 4,036.00 3,566.00 3,277.00 Pretax Income 6,003.00 5,678.00 5,981.00 5,100.00 Other Income 213.00 221.00 192.00 275.00 Net Income Bef Extraordinary ... NA NA NA NA Net Income 4,133.00 3,872.00 4,090.00 3,573.00 Balance Sheet (Millions)  Assets 9/30/2017 6/30/2017 3/31/2017 12/31/2016 Cash & Short Term Investments 438,717.00 420,147.00 422,974.00 397,307.00 Receivables - Total 38,076.00 40,487.00 36,888.00 28,887.00 Inventories - Total NA NA NA NA Total Current Assets NA NA NA NA Net Property, Plant & Equipment NA NA NA NA Total Assets 1,889,133.00 1,864,063.00 1,821,635.00 1,792,077.00 Liabilities     Accounts Payable 63,205.00 62,947.00 59,655.00 57,152.00 Debt in Current Liabilities 199,431.00 191,299.00 174,357.00 172,522.00 Total Current Liabilities NA NA NA NA Long-Term Debt 371,493.00 361,924.00 352,600.00 345,223.00 Total Liabilities 1,661,499.00 1,634,044.00 1,593,503.00 1,566,957.00 Stockholder's Equity     Minority Interest 988.00 1,088.00 1,021.00 1,023.00 Preferred Stock 19,253.00 19,253.00 19,253.00 19,253.00 Common Stock 31.00 31.00 31.00 31.00 Retained Earnings 155,174.00 152,178.00 149,731.00 146,477.00 Treasury Stock -24,829.00 -19,342.00 -17,579.00 -16,302.00 Total Stockholders' Equity 227,634.00 230,019.00 228,132.00 225,120.00 Total Liabilities and Stockholders' Equity 1,889,133.00 1,864,063.00 1,821,635.00 1,792,077.00 Cash Flow Summary (Millions)  Categories 9/30/2017 6/30/2017 3/31/2017 12/31/2016 Net Cash Provided by Operating Activities 18,206.00 -18,505.00 -3,006.00 25,598.00 Net Cash Provided by Investing Activities -29,919.00 -22,508.00 -17,243.00 -7,972.00 Net Cash Provided by Financing Activities 13,001.00 39,798.00 19,138.00 -17,653.00 Annual Summary Data (Millions)  Year Sales Net Income EPS 12/2012 59,581.00 7,541.00 2.49 12/2013 67,997.00 13,659.00 4.26 12/2014 69,606.00 7,310.00 2.20 12/2015 68,024.00 17,242.00 5.42 12/2016 62,565.00 14,912.00 4.74 Growth Rates 1.23 18.58 17.46 Stock Ownership  Type Date(Q,M) No. Owners Shares Held (000s) % Own Institutional 12/31/17 1666 2,065,096 80.35 Report Date : 2/19/2018
+© 2018EDGAR®Online, a division of Donnelley Financial Solutions. EDGAR® is a federally registered trademark of the U.S. Securities and Exchange Commission. EDGAR Online is not affiliated with or approved by the U.S. Securities and Exchange Commission.
+2 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Company Information 
+3 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+4 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Address: 388 GREENWICH STREET
+5 ++++++++++++++++++++++++++++++++++++++++++++++++++
+City: NEW YORK
+6 ++++++++++++++++++++++++++++++++++++++++++++++++++
+State: NY
+7 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Zip Code: 10013
+8 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Telephone: 212-559-1000
+9 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Description of Business Primary SIC Code: 6021
+10 ++++++++++++++++++++++++++++++++++++++++++++++++++
+(As filed with the SEC) 
+11 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+12 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Citigroup is now a global diversified financial services holding company whose businesses provide consumers, corporations, governments and institutions with a broad range of financial products and services. Citi has approximately 200 million customer accounts and does business in more than 140 countries. Citigroup currently operates, for management reporting purposes, via two primary business segments: Citicorp, consisting of our Regional Consumer Banking businesses and Institutional Clients Group; and Citi Holdings, consisting of our Brokerage and Asset Management and Local Consumer Lending businesses, and a Special Asset Pool. There is also a third segment, Corporate/Other. For a further description of the business segments and the products and services they provide, see "Citigroup Segments" below, "Management's Discussion and Analysis of Financial Condition and Results of Operations" and Note 4 to the Consolidated Financial Statements.  ... More ...
+13 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Per Share Overview
+14 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+15 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Date 12-mos Rolling EPS Dividend P/E Ratio
+16 ++++++++++++++++++++++++++++++++++++++++++++++++++
+09/2017 5.19 0.320 14.02
+17 ++++++++++++++++++++++++++++++++++++++++++++++++++
+06/2017 5.02 0.160 13.32
+18 ++++++++++++++++++++++++++++++++++++++++++++++++++
+12/2016 4.74 0.160 12.54
+19 ++++++++++++++++++++++++++++++++++++++++++++++++++
+09/2016 4.64 0.160 10.18
+20 ++++++++++++++++++++++++++++++++++++++++++++++++++
+06/2016 4.76 0.160 8.91
+21 ++++++++++++++++++++++++++++++++++++++++++++++++++
+03/2016 5.03 0.050 8.30
+22 ++++++++++++++++++++++++++++++++++++++++++++++++++
+12/2015 5.42 0.050 9.55
+23 ++++++++++++++++++++++++++++++++++++++++++++++++++
+09/2015 4.44 0.050 11.17
+24 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Key Financial Ratios and Statistics FYE: 12/31
+25 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+26 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Profitability 2016 Leverage 2016
+27 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Inc/Comm Equity 0.16 Total Liab/Total Assets 0.87
+28 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Inc/Total Assets 0.01 Total Liab/Inv Cap 0.97
+29 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Inc/Inv Cap 0.01 Total Liab/Comm Equity 17.07
+30 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Pretax Inc/Net Sales 0.34 Interest Coverage Ratio 2.72
+31 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Inc/Net Sales 0.24 Curr Debt/Equity 0.77
+32 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Cash Flow/Net Sales 0.86 LTD/Equity 1.53
+33 ++++++++++++++++++++++++++++++++++++++++++++++++++
+SG&A/NetSales 0.67 Total Debt/Equity 2.30
+34 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Asset Utilization  Liquidity 
+35 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Receivables Turnover 2.21 Quick Ratio NA
+36 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Inventory Turnover NA Current Ratio NA
+37 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Inventory Day Sales NA Net Rec/Curr Assets NA
+38 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Sales/Work Cap NA Inv/Curr Assets NA
+39 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Sales/PP&E NA  
+40 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Income Statement (Millions)
+41 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+42 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 9/30/2017 6/30/2017 3/31/2017 12/31/2016
+43 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Total Revenues(Net Sales) 15,976.00 15,983.00 16,278.00 14,950.00
+44 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Cost of Goods Sold NA NA NA NA
+45 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Selling & Admin Exps 10,199.00 10,529.00 10,507.00 10,152.00
+46 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Operating Income 5,790.00 5,457.00 5,789.00 4,825.00
+47 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Interest Exp 4,379.00 4,036.00 3,566.00 3,277.00
+48 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Pretax Income 6,003.00 5,678.00 5,981.00 5,100.00
+49 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Other Income 213.00 221.00 192.00 275.00
+50 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Income Bef Extraordinary ... NA NA NA NA
+51 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Income 4,133.00 3,872.00 4,090.00 3,573.00
+52 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Balance Sheet (Millions)
+53 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+54 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Assets 9/30/2017 6/30/2017 3/31/2017 12/31/2016
+55 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Cash & Short Term Investments 438,717.00 420,147.00 422,974.00 397,307.00
+56 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Receivables - Total 38,076.00 40,487.00 36,888.00 28,887.00
+57 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Inventories - Total NA NA NA NA
+58 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Total Current Assets NA NA NA NA
+59 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Property, Plant & Equipment NA NA NA NA
+60 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Total Assets 1,889,133.00 1,864,063.00 1,821,635.00 1,792,077.00
+61 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Liabilities    
+62 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Accounts Payable 63,205.00 62,947.00 59,655.00 57,152.00
+63 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Debt in Current Liabilities 199,431.00 191,299.00 174,357.00 172,522.00
+64 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Total Current Liabilities NA NA NA NA
+65 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Long-Term Debt 371,493.00 361,924.00 352,600.00 345,223.00
+66 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Total Liabilities 1,661,499.00 1,634,044.00 1,593,503.00 1,566,957.00
+67 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Stockholder's Equity    
+68 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Minority Interest 988.00 1,088.00 1,021.00 1,023.00
+69 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Preferred Stock 19,253.00 19,253.00 19,253.00 19,253.00
+70 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Common Stock 31.00 31.00 31.00 31.00
+71 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Retained Earnings 155,174.00 152,178.00 149,731.00 146,477.00
+72 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Treasury Stock -24,829.00 -19,342.00 -17,579.00 -16,302.00
+73 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Total Stockholders' Equity 227,634.00 230,019.00 228,132.00 225,120.00
+74 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Total Liabilities and Stockholders' Equity 1,889,133.00 1,864,063.00 1,821,635.00 1,792,077.00
+75 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Cash Flow Summary (Millions)
+76 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+77 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Categories 9/30/2017 6/30/2017 3/31/2017 12/31/2016
+78 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Cash Provided by Operating Activities 18,206.00 -18,505.00 -3,006.00 25,598.00
+79 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Cash Provided by Investing Activities -29,919.00 -22,508.00 -17,243.00 -7,972.00
+80 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Net Cash Provided by Financing Activities 13,001.00 39,798.00 19,138.00 -17,653.00
+81 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Annual Summary Data (Millions)
+82 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+83 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Year Sales Net Income EPS
+84 ++++++++++++++++++++++++++++++++++++++++++++++++++
+12/2012 59,581.00 7,541.00 2.49
+85 ++++++++++++++++++++++++++++++++++++++++++++++++++
+12/2013 67,997.00 13,659.00 4.26
+86 ++++++++++++++++++++++++++++++++++++++++++++++++++
+12/2014 69,606.00 7,310.00 2.20
+87 ++++++++++++++++++++++++++++++++++++++++++++++++++
+12/2015 68,024.00 17,242.00 5.42
+88 ++++++++++++++++++++++++++++++++++++++++++++++++++
+12/2016 62,565.00 14,912.00 4.74
+89 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Growth Rates 1.23 18.58 17.46
+90 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Stock Ownership
+91 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+92 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Date(Q,M) No. Owners Shares Held (000s) % Own
+93 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Institutional 12/31/17 1666 2,065,096 80.35
+94 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Report Date : 2/19/2018
+© 2018EDGAR®Online, a division of Donnelley Financial Solutions. EDGAR® is a federally registered trademark of the U.S. Securities and Exchange Commission. EDGAR Online is not affiliated with or approved by the U.S. Securities and Exchange Commission.
