@@ -7,16 +7,23 @@ from pyquery import PyQuery as pq
 from collections import defaultdict
 import simplejson as json
 
+###Company Informnation###
+def test_company (table):
+    text = pq(table).text()
+    return 
+def parse_company (bigtable, table):
+    bigtable['company'] = pq(table).text()
+
 def test_balance (table):
     text = pq(table).text()
     return "Assets" in text and "Liabilities" in text
-
 def parse_balance (bigtable, table):
     bigtable['balance'] = pq(table).text()
     pass
 
 
-parser = [(test_balance, parse_balance),
+parser = [(test_company,parse_company),
+        (test_balance, parse_balance),
          ]
 
 f = open("goog.out.txt", "w") 
