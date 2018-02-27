@@ -10,9 +10,10 @@ import simplejson as json
 ###Company Informnation###
 def test_company (table):
     text = pq(table).text()
-    return 
+    return "Address:" in text 
 def parse_company (bigtable, table):
     bigtable['company'] = pq(table).text()
+    pass
 
 def test_balance (table):
     text = pq(table).text()
@@ -21,11 +22,64 @@ def parse_balance (bigtable, table):
     bigtable['balance'] = pq(table).text()
     pass
 
+def test_description (table):
+    text = pd(table).text()
+    return "Primary SIC Code" in text
+ 
+def parse_description(bigtable,table):
+    bigtable['description'] = pq(table).text()
+    pass
 
-parser = [(test_company,parse_company),
-        (test_balance, parse_balance),
-         ]
+def test_pershare(table):
+    text = pd(table).text()
+    return "12-mos Rolling EPS" in text and "P/E Ratio" in text
 
+def parse_pershare(table):
+    bigtable['pershare'] = pd(table).text()
+    pass
+
+def test_key(table):
+    text = pd(table).text()
+    return "Leverage" in text and "Asset Utilization" in text 
+
+def parse_key(table):
+    bigtable['key'] = pd(table).text()
+    pass
+
+def test_income(table):
+    text = pd(table).text()
+    return "Total Revenues(Net Sales)" in text and "Selling & Admin Exps" in text 
+
+def parse_income(table):
+    bigtable['income'] = pd(table).text()
+    pass
+
+def test_cash(table):
+    text = pd(table).text()
+    return "Operating Activities" in text and "Investing Activities" in text 
+
+def parse_cash(table):
+    bigtable['cash'] = pd(table).text()
+    pass
+
+def test_annual(table):
+    text = pd(table).text()
+    return "Growth Rates" in text and "Net Income" in text 
+
+def parse_annual(table):
+    bigtable['annual'] = pd(table).text()
+    pass
+
+def test_stock(table):
+    text = pd(table).text()
+    return "No. Owners" in text and "Shares Held (000s)" in text 
+
+ def parse_stock(table):
+     bigtable['stock'] = pd(table).text()
+     pass
+parser = [(test_balance, parse_balance), 
+        (test_company,parse_company),
+        ]
 f = open("goog.out.txt", "w") 
 #doc = pq(url ="https://www.nasdaq.com/symbol/c/stock-report")
 #doc = pq(url ="https://stockreports.nasdaq.edgar-online.com/goog.html")
@@ -39,16 +93,20 @@ sys.exit(0)
 
 '''
 bigtable = {}
-
+i = 0
 for table in doc('table'):
-    for test, parse in parser:
+    if i>0:
         cnt = 0
-        if test(table):
-            parse(bigtable, table)
-            cnt += 1
+        for test, parse in parser:
+            #cnt = 0
+            if test(table):
+                parse(bigtable, table)
+                cnt += 1
+                pass
             pass
-        assert cnt == 1
+        assert cnt <= 1
         pass
+    i += 1 
     pass
 
 
