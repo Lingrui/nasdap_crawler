@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # encoding=utf8
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
+#import sys
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 from pyquery import PyQuery as pq
 from collections import defaultdict
 import simplejson as json
@@ -37,7 +37,28 @@ def test_pershare(table):
     return "12-mos Rolling EPS" in text and "P/E Ratio" in text
 
 def parse_pershare(bigtable,table):
-    bigtable['Per Share Overview'] = pq(table).text()
+    i = 0
+    heads = []
+    rows = []
+    #print (pq(table).text())
+    for tr in pq(table)('tr'):
+        print(tr.text())
+        if i == 0:
+            for td in pq(tr)('td'):
+                #print (td.text)
+                heads.append(td.text())
+        else:
+            contents = pq(tr)('td').text()
+            #print(contents)
+            h = {}
+            for head,content in zip(heads,contents):
+                #print (head,content)
+                h[head] = content
+                pass
+            rows.append(h)
+        i += 1 
+    bigtable['Per Share Overview'] = rows 
+    #bigtable['Per Share Overview'] = pq(table).text()
     pass
 
 def test_key(table):
@@ -91,48 +112,51 @@ parser = [(test_balance, parse_balance),
         (test_stock,parse_stock),
         ]
 
-f = open("goog.out.txt", "w") 
-#doc = pq(url ="https://www.nasdaq.com/symbol/c/stock-report")
-#doc = pq(url ="https://stockreports.nasdaq.edgar-online.com/goog.html")
-#print doc('title')
-doc = pq(filename='goog.html')
+def get_sec(symbol):
+    '''
+    #f = open("goog.out.txt", "w") 
+    #doc = pq(url ="https://www.nasdaq.com/symbol/c/stock-report")
+    doc = pq(url ="https://stockreports.nasdaq.edgar-online.com/goog.html")
+    doc = pq(filename='goog.html')
 
-'''
-it = doc('#Table3')
-print it.text()
-sys.exit(0)
-
-'''
-bigtable = {}
-i = 0  #skip the first table 
-j = 0  #for description of business table
-for table in doc('table'):
-    if i>0:
-        cnt = 0
-        for test, parse in parser:
-            #cnt = 0
-            if test(table):
-                parse(bigtable, table)
-                cnt += 1
+    it = doc('#Table3')
+    print it.text()
+    sys.exit(0)
+    '''
+    doc = pq(url ="https://stockreports.nasdaq.edgar-online.com/"+symbol+".html")
+    bigtable = {}
+    i = 0  #skip the first table 
+    j = 0  #for description of business table
+    for table in doc('table'):
+        if i>0:
+            cnt = 0
+            for test, parse in parser:
+                #cnt = 0
+                if test(table):
+                    parse(bigtable, table)
+                    cnt += 1
+                    pass
                 pass
-            pass
-        if j == 2:
-            parse_description(bigtable,table)
-            j += 1 
-            pass
+            if j == 2:
+                parse_description(bigtable,table)
+                j += 1 
+                pass
 
-        if test_description(table):
-            j += 1
-        elif j == 1:
-            j += 1
+            if test_description(table):
+                j += 1
+            elif j == 1:
+                j += 1
+                pass
+            assert cnt <= 1
             pass
-        assert cnt <= 1
+        i += 1 
         pass
-    i += 1 
+
+
+    print json.dumps(bigtable)
     pass
-
-
-print json.dumps(bigtable)
+    #return json.dumps(bigtable)
+'''
 sys.exit(0)
 
 it = iter(doc('table')) #.items()
@@ -178,3 +202,8 @@ for tr in data.items():
     #print >>f, i,'+'*50
 
 f.close()
+'''
+if __name__ == '__main__':
+    get_sec('goog')
+    pass
+    
