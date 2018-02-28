@@ -42,21 +42,27 @@ def parse_pershare(bigtable,table):
     rows = []
     #print (pq(table).text())
     for tr in pq(table)('tr'):
-        print(tr.text())
+        #print(tr.text)
         if i == 0:
             for td in pq(tr)('td'):
-                #print (td.text)
-                heads.append(td.text())
+                #print (pq(td).text())
+                heads.append(pq(td).text())
+                pass
+            pass
         else:
-            contents = pq(tr)('td').text()
-            #print(contents)
+            contents = []
             h = {}
+            for td in pq(tr)('td'):
+                contents.append(pq(td).text())
+                pass
             for head,content in zip(heads,contents):
                 #print (head,content)
                 h[head] = content
                 pass
             rows.append(h)
         i += 1 
+        pass
+
     bigtable['Per Share Overview'] = rows 
     #bigtable['Per Share Overview'] = pq(table).text()
     pass
@@ -66,7 +72,37 @@ def test_key(table):
     return "Leverage" in text and "Asset Utilization" in text 
 
 def parse_key(bigtable,table):
-    bigtable['Key Financial Ratios and Statistics'] = pq(table).text()
+    i = 0
+    year = ''
+    bigdic = {}
+    rows = []
+    pro = {}
+    lev = {}
+    ass = {}
+    liq = {}
+    for tr in pq(table)('tr'):
+        td1,td2,td3,td4 = pq(tr)('td')
+        if i == 0:
+            year = pq(td2).text()
+            pass
+        elif i < 8:
+            pro[pq(td1).text()] = pq(td2).text()    
+            lev[pq(td3).text()] = pq(td4).text()    
+            pass
+        elif i > 8:
+            ass[pq(td1).text()] = pq(td2).text()    
+            liq[pq(td1).text()] = pq(td2).text()    
+            pass
+        i += 1 
+        pass
+    bigdic["year"] = year
+    bigdic["Profitability"] = pro
+    bigdic["Leverage"] = lev
+    bigdic["Asset Utilization"] = ass
+    bigdic["Liquidity"] = liq
+    rows.append(bigdic)
+    #bigtable['Key Financial Ratios and Statistics'] = pq(table).text()
+    bigtable['Key Financial Ratios and Statistics'] = rows
     pass
 
 def test_income(table):
