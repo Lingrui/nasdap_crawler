@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id='app'>
+<form>
+Symbol <input v-model='symbol' type='text'></input>
+</form>
+<button v-on:click='search'>Query</button>
+<h4>Company Information</h4>
+{{info.Company_Information}}
+<table style="width:100%" border="1">
+  <tr>
+    <th>Address:</th>
+    <td>...</td>
+  </tr>
+
+  <tr>
+    <th>City:</th>
+    <td>...</td>
+  </tr>
+  <tr>
+    <th>State:</th>
+    <td>...</td>
+  </tr>
+  <tr>
+    <th>Zip Code:</th>
+    <td>...</td>
+  </tr>
+  <tr>
+    <th>Telephone:</th>
+    <td>...</td>
+  </tr>
+</table>
+
+<h4>Description of Business </h4>
+<table>
+  <tr v-for='row in info.Description_of_Business'>
+    <td>{{row.AAA}</td> <td>{{row.bbbb}}</td>
+  </tr>
+</table>
+
+
+<h4> Per Share Overview </h4>
+<table style="width:100%" border="1">
+  <tr>
+    <th>Date</th>
+    <th>12-mos Rolling EPS</th>
+    <th>Dividend</th>
+    <th>P/E Ratio</th>
+  </tr>
+  <tr v-for=>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+</table>
+
+<h4> key Financial Ratios and Statistics </h4>
+<table style="width:100%" border="1">
+  <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+</table>
+
+<h4> Income Statement (Million)</h4>
+<table style="width:100%" border="1">
+<tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+</table>
+
+<h4> Cash Flow Summary(Million) </h4>
+<table style="width:100%" border="1">
+  <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+</table>
+
+<h4> Annual Summary Data(Million)</h4>
+<table style="width:100%" border="1">
+  <tr>
+    <th>Year</th>
+    <th>Sales</th>
+    <th>Net Income</th>
+    <th>EPS</th>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+
+</table>
+
+<h4> Stock Ownership</h4>
+<table style="width:100%" border="1">
+  <tr>
+    <th>Type</th>
+    <th>Date(Q,M)</th>
+    <th>No. Owners</th>
+    <th>Shares Held(000s)</th>
+    <th>% Own</th>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+
+
+</table>
+</div>
+<script src='/static/vue.js'></script>
+<script src="/static/axios.min.js"></script>
+<script>
+var app = new Vue({
+  el: "#app",
+  data: {
+    symbol: "",
+    info: {},
+  },
+  methods: {
+    search: function () {
+       //alert(this.symbol);
+       var self = this;
+			 axios.get('/query?symbol=' + this.symbol)
+				.then(function(resp) {
+          self.info = resp.data;
+				  self.$forceUpdate();
+				});
+				
+    }
+  }
+
+});
+
+</script>
+
+</body>
+</html>
+  

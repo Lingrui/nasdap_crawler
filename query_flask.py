@@ -10,7 +10,20 @@ import simplejson as json
 from query import *
 app = Flask(__name__)
 
+
 @app.route("/")
+def get_index():
+    with open('static/table.html', 'r') as f:
+        index_html = f.read()
+    return Response(index_html, mimetype='text/html')
+
+@app.route("/static/<path>")
+def get_static(path):
+    with open('./static/'+path, 'r') as f:
+        index_html = f.read()
+    return Response(index_html, mimetype='text/plain')
+
+@app.route("/query")
 def get():
     sec = request.args.get('symbol',default = 'goog',type = str)
     info = get_sec(sec) 

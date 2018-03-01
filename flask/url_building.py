@@ -1,5 +1,6 @@
 from flask import Flask,url_for
 app = Flask(__name__)
+#using url_for() function to build a url to a specific function 
 
 @app.route('/')
 def index():

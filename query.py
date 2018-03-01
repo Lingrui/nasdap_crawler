@@ -12,7 +12,7 @@ def test_company (table):
     text = pq(table).text()
     return "Address:" in text 
 def parse_company (bigtable, table):
-    bigtable['Company Information'] = pq(table).text()
+    bigtable['Company_Information'] = pq(table).text()
     pass
 
 ####
