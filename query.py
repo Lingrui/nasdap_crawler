@@ -12,7 +12,12 @@ def test_company (table):
     text = pq(table).text()
     return "Address:" in text 
 def parse_company (bigtable, table):
-    bigtable['Company_Information'] = pq(table).text()
+    dic = {}
+    for tr in pq(table)('tr'):
+        td1,td2 = pq(tr)('td')
+        dic[pq(td1).text()] = pq(td2).text()
+    bigtable['Company_Information'] = dic 
+    #bigtable['Company_Information'] = pq(table).text()
     pass
 
 ####
@@ -55,7 +60,7 @@ def parse_balance (bigtable, table):
     bigdic["Leverage"] = lev
     rows.append(bigdic)
     '''
-    bigtable['Balance Sheet(Millions)'] = pq(table).text()
+    bigtable['Balance_Sheet(Millions)'] = pq(table).text()
     pass
 
 ######
@@ -64,7 +69,7 @@ def test_description (table):
     return "Primary SIC Code" in text
  
 def parse_description(bigtable,table):
-    bigtable['Description of Business'] = pq(table).text()
+    bigtable['Description_of_Business'] = pq(table).text()
     pass
 
 def test_pershare(table):
@@ -98,7 +103,7 @@ def parse_pershare(bigtable,table):
         i += 1 
         pass
 
-    bigtable['Per Share Overview'] = rows 
+    bigtable['Per_Share_Overview'] = rows 
     #bigtable['Per Share Overview'] = pq(table).text()
     pass
 
@@ -136,7 +141,7 @@ def parse_key(bigtable,table):
     bigdic["Asset Utilization"] = ass
     bigdic["Liquidity"] = liq
     rows.append(bigdic)
-    #bigtable['Key Financial Ratios and Statistics'] = pq(table).text()
+    #bigtable['Key_Financial_Ratios_and_Statistics'] = pq(table).text()
     bigtable['Key Financial Ratios and Statistics'] = rows
     pass
 
@@ -171,7 +176,7 @@ def parse_income(bigtable,table):
     bigdic[cn3] = col3
     bigdic[cn4] = col4
     rows.append(bigdic)
-    bigtable['Income Statement(Millions)'] = rows 
+    bigtable['Income_Statement(Millions)'] = rows 
     #bigtable['Income Statement(Millions)'] = pq(table).text()
     pass
 
@@ -205,7 +210,7 @@ def parse_cash(bigtable,table):
             rows.append(h)
         i += 1 
         pass
-    bigtable['Cash Flow Summary(Millions)'] = rows 
+    bigtable['Cash_Flow_Summary(Millions)'] = rows 
     #bigtable['Cash Flow Summary(Millions)'] = pq(table).text()
     pass
 
@@ -239,7 +244,7 @@ def parse_annual(bigtable,table):
             rows.append(h)
         i += 1 
         pass
-    bigtable['Annual Summary Data(Millions)'] = rows
+    bigtable['Annual_Summary_Data(Millions)'] = rows
     #bigtable['Annual Summary Data(Millions)'] = pq(table).text()
     pass
 
@@ -273,7 +278,7 @@ def parse_stock(bigtable,table):
             rows.append(h)
         i += 1 
         pass
-    bigtable['Stock Ownership'] = rows 
+    bigtable['Stock_Ownership'] = rows 
     #bigtable['Stock Ownership'] = pq(table).text()
     pass
 
